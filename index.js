@@ -9,15 +9,15 @@ function sumEvenFibonacciValues (maximum) {
 	}
 	let term1 = 0;
 	let term2 = 1;
-	let sum = term1 + term2;
+	let nextValue = term1 + term2;
 	let evensSum = 0;
-	while (sum < maximum) {
-		if (sum % 2 === 0) {
-			evensSum += sum;
+	while (nextValue < maximum) {
+		if (nextValue % 2 === 0) {
+			evensSum += nextValue;
 		}
 		term1 = term2;
-		term2 = sum;
-		sum = term1 + term2;
+		term2 = nextValue;
+		nextValue = term1 + term2;
 	}
 	return evensSum;
 }
