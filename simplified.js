@@ -2,7 +2,7 @@
  * A more efficient algorithm for returning the sum of every even value
  * in the Fibonacci sequence whose values do not exceed the maximum specified.
  *
- * Works up until a maximum of 8944394323791464, and then it breaks.
+ * Works up until a maximum of Number.MAX_SAFE_INTEGER, and then it breaks.
  * @param maximum: Number
  */
 function sumEvenFibonacciValues (maximum) {

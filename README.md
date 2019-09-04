@@ -2,4 +2,4 @@
 
 Written in JavaScript. Use `index.html` and `index.js` file. 
 
-The `simplified.js` file is an attempt at a simplified solution, since I noticed that there was a sequence within the even values, but I realized it breaks if `maximum > 8944394323791464`.
+The `simplified.js` file is an attempt at a simplified solution, since I noticed that there was a sequence within the even values, but I realized it breaks if `maximum > Number.MAX_SAFE_INTEGER`.
